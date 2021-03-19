@@ -1,0 +1,6 @@
+p:nth-child(2){        /*if we write 2n at the place of 2 it means it will cover   2nd p , 4th p , 6th p and so on. */
+    color:red;
+}
+/* p:nth-of-type{
+    color:green;
+} */

@@ -1,0 +1,19 @@
+input[type = text]{
+    color: red;
+    background-color: green;
+}
+a[href= "facebook.com"]{
+    color: rgb(243, 10, 80);
+}
+a[href *= "google"]{
+    color: rgb(22, 211, 69);
+}
+/* it will select all the links which contain the word google  */
+a[href ^= "https"]{
+color: rosybrown;
+}
+/* it will select all the links which are starting from https */
+a[href $= ".com"]{
+    color: pink;
+}
+/* it will select all the links which are ending with .com and we can do the same thing with any attribute */

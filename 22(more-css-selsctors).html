@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* *{                     
+            color: red;
+        } */
+        header{
+            background-color: darkslategray;
+        }
+        section.my-articles{
+            background-color: darkturquoise;
+        }
+        header p{
+            color: rosybrown;
+        }
+        li a{
+            color: rgb(11, 192, 35);
+        }
+        section.my-articles h2{
+            background-color: rgb(207, 45, 145);
+        }
+        section.my-articles > h2{                   
+            background-color: rgb(87, 238, 17);    
+        }
+        /* <!--this is the concept of direct child--> */
+        h2+p{
+            color: orange;
+        }
+        /* it will only change the color which is just after the h2 */
+    </style>
+</head>
+<body>
+    <header>
+        <p>short paragraph inside header</p>
+        <h1 class="main-logo">main-logo</h1>
+        <ul>
+            <li><a href="">home </a></li>
+            <li><a href="">about <ba></li>
+            <li><a href="">contact </a></li>
+        </ul>
+        <p>short paragraph inside header</p>
+    </header>
+    <main>
+        <h2>main content of our web page</h2>
+        <section class=my-articles>
+            <h2>Articles section</h2>
+            <article>
+                <h2>article heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam pariatur architecto sunt vero? Provident placeat soluta explicabo repellat fugit dicta.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam pariatur architecto sunt vero? Provident placeat soluta explicabo repellat fugit dicta.</p>
+            </article>
+            <article>
+                <h2>article heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam pariatur architecto sunt vero? Provident placeat soluta explicabo repellat fugit dicta.</p>
+            </article>
+
+        </section>
+    </main>
+</body>
+</html>
+<!--  *__universal selector-->

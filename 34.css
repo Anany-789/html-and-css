@@ -1,0 +1,15 @@
+p{
+    font-weight: bold;/*It decides that how bold our text should look like.Its
+default value is 400 or normal*/
+
+line-height: 30px;
+word-spacing: 8px;
+letter-spacing: 2px;
+}
+h1{
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;/*here for heading its default value is bold or 700.*/
+    font-style: italic;
+    text-decoration: overline wavy red;/*underline is given by the browser as default only to the "a" tag*/
+}

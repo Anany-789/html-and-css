@@ -1,0 +1,22 @@
+h1{
+    color: green;
+}
+
+.h1class{
+    color: red;
+}
+/* since classes are more specific than any normal html elements */
+#h1id{
+    color: blue;
+}
+/* precedence: inline style attr.>id>classes>elements */
+
+.h2class{
+    color: red;
+}
+.heading{
+    color: green;
+}
+h2.h2class{
+    color: grey;
+}

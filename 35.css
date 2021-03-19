@@ -1,0 +1,33 @@
+/* link, visited, hover, active - this order must be written in the same order.   */
+a:link {
+    color : orange ;
+}
+a:visited{
+    color : red ;
+}
+a:hover{
+    color : green ;/*when we take the cursor at that particular link or text.*/
+}
+a:active{
+    color : black ;/*at the moment when we click*/
+}
+p:hover{
+    color: yellow;
+}
+p:active{
+    background-color:brown
+}
+
+
+
+/*---------------pseudo classes for input fields---------------*/
+
+
+input:focus{
+    padding: 20px;
+    outline:none;
+    border:2px solid green 
+}
+input:required{
+    color:red;
+}
